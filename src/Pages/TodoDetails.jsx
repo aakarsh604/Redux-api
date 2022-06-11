@@ -10,7 +10,7 @@ const TodoDetails = () => {
     singleData: todo,
     loading,
     error,
-  } = useSelector((state) => state.getTodos);
+  } = useSelector((state) => state.todo.getTodos);
   const { id } = useParams();
 
   useEffect(() => {

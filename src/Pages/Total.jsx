@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 const Total = () => {
     const [total, settotal] = useState(0);
     const [pending, setpending] = useState(0);
-    const data = useSelector(state=> state.getTodos.data);
+    const data = useSelector(state=> state.todo.getTodos.data);
 
     let pend = data.filter((todo)=> {
         return todo.isComplete === true;

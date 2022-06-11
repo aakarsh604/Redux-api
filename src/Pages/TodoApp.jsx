@@ -13,7 +13,7 @@ const TodoApp = () => {
     loading,
     error,
     status,
-  } = useSelector((state) => state.getTodos);
+  } = useSelector((state) => state.todo.getTodos);
 
   const addNew = () => {
     let val = ref.current.value;
