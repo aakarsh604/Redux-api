@@ -1,0 +1,46 @@
+{
+  "todos": [
+    {
+      "id": 3,
+      "value": "study get",
+      "status": false,
+      "isComplete": false
+    },
+    {
+      "value": "study delete",
+      "isComplete": false,
+      "status": false,
+      "id": 4
+    },
+    {
+      "value": "study post",
+      "isComplete": false,
+      "status": false,
+      "id": 5
+    },
+    {
+      "value": "study algorithm",
+      "isComplete": true,
+      "status": false,
+      "id": 7
+    },
+    {
+      "value": "study data structures",
+      "isComplete": true,
+      "status": false,
+      "id": 8
+    },
+    {
+      "value": "study architecture",
+      "isComplete": false,
+      "status": false,
+      "id": 9
+    },
+    {
+      "value": "study electronics",
+      "isComplete": false,
+      "status": false,
+      "id": 12
+    }
+  ]
+}
